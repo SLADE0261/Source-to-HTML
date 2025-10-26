@@ -1,4 +1,4 @@
-# SyntaxGlow
+# Source to HTML
 
 A sophisticated C implementation of a syntax highlighting engine that converts C source code files into beautifully formatted HTML with VS Code Dark+ theme styling.
 
