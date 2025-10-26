@@ -1,10 +1,10 @@
-# Source to HTML
+# Source-to-HTML
 
 A sophisticated C implementation of a syntax highlighting engine that converts C source code files into beautifully formatted HTML with VS Code Dark+ theme styling.
 
 ## Overview
 
-SyntaxGlow is a lexical analyzer and HTML generator that parses C source code and produces syntax-highlighted HTML output. Using a state-machine based parser, it accurately identifies keywords, comments, preprocessor directives, strings, and other language elements, applying appropriate styling to each component.
+Source-to-HTML is a lexical analyzer and HTML generator that parses C source code and produces syntax-highlighted HTML output. Using a state-machine based parser, it accurately identifies keywords, comments, preprocessor directives, strings, and other language elements, applying appropriate styling to each component.
 
 ## Features
 
@@ -62,8 +62,8 @@ The parser implements multiple states:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/SyntaxGlow.git
-cd SyntaxGlow
+git clone https://github.com/SLADE0261/Source-to-HTML.git
+cd Source-to-HTML
 ```
 
 2. Compile the project:
@@ -106,7 +106,7 @@ The program generates:
 ## Project Structure
 
 ```
-SyntaxGlow/
+Source-to-HTML/
 ├── s2html_main.c          # Main program entry point
 ├── s2html_event.c         # Lexical analyzer/parser engine
 ├── s2html_event.h         # Parser function declarations
@@ -222,7 +222,7 @@ int main() {
 ## Limitations
 
 - **Language Support**: Currently only C language
-- **BMP Format Only**: Designed for C source files
+- **C Source Only**: Designed for C source files
 - **Comment Handling**: Nested comments not supported (per C standard)
 - **Preprocessor**: Basic support, complex macros may not highlight perfectly
 - **CSS Dependency**: Requires `styles.css` in output directory
@@ -265,8 +265,8 @@ Contributions are welcome! Areas for improvement:
 
 ```bash
 # Clone with tags
-git clone https://github.com/yourusername/SyntaxGlow.git
-cd SyntaxGlow
+git clone https://github.com/SLADE0261/Source-to-HTML.git
+cd Source-to-HTML
 
 # Enable debug mode
 gcc -DDEBUG s2html_main.c s2html_event.c s2html_conv.c -o syntaxglow_debug
@@ -277,13 +277,11 @@ gcc -DDEBUG s2html_main.c s2html_event.c s2html_conv.c -o syntaxglow_debug
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available for educational purposes.
 
 ## Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Project Date: October 2025
+Krishnakant C. Pore
 
 ## Acknowledgments
 
@@ -292,12 +290,9 @@ This project is open source and available under the [MIT License](LICENSE).
 - Finite State Machine design pattern
 - C programming community
 
-## References
+## Repository
 
-- [HTML5 Specification](https://html.spec.whatwg.org/)
-- [CSS3 Specification](https://www.w3.org/Style/CSS/)
-- [C Language Standard](https://www.iso.org/standard/74528.html)
-- [Lexical Analysis Theory](https://en.wikipedia.org/wiki/Lexical_analysis)
+GitHub: [https://github.com/SLADE0261/Source-to-HTML](https://github.com/SLADE0261/Source-to-HTML)
 
 ## FAQ
 
@@ -318,4 +313,4 @@ A: Partially. Basic C++ will work, but C++-specific features may not highlight c
 
 ---
 
-⭐ **If you find SyntaxGlow useful, please consider giving it a star!** ⭐
+★ **If you find Source-to-HTML useful, please consider giving it a star!** ★
