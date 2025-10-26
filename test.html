@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>sode2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<pre>
+<span class="comment">/* this is multi-line comment */</span>
+<span class="comment">//this is single line comment
+</span><span class="comment">//hallo
+</span><span class="preprocess_dir">#include </span><span class="header_file">&lt;stdio.h&gt;</span>
+<span class="preprocess_dir">#include </span><span class="header_file">&lt;string.h&gt;</span>
+<span class="preprocess_dir">#include     </span><span class="header_file">"string.h"</span>
+<span class="preprocess_dir">#define </span>check <span class="numeric_constant">10</span>
+<span class="reserved_key1">int</span> main<span class="symbols">()</span>
+<span class="symbols">{</span>
+    <span class="reserved_key1">char</span> Z <span class="operators">=</span> <span class="ascii_char">'S''</span>;
+    <span class="reserved_key1">char</span> str<span class="symbols">[</span><span class="numeric_constant">2</span><span class="symbols">]</span>;
+    <span class="reserved_key1">int</span> i;
+    <span class="reserved_key1">int</span> sum<span class="operators">=</span><span class="numeric_constant">10</span>;
+    <span class="reserved_key1">float</span> ft <span class="operators">=</span> <span class="numeric_constant">10.98</span>;
+    <span class="reserved_key1">char</span> name <span class="operators">=</span> <span class="ascii_char">'a'</span>;
+    printf<span class="symbols">(</span><span class="string">"hello world"</span><span class="symbols">)</span>;
+    printf<span class="symbols">(</span><span class="string">"hallo </span><span class="format_specifier">%d</span><span class="string"> -> sum"</span><span class="operators">,</span>sum<span class="symbols">)</span>;
+    printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%c</span><span class="string">"</span><span class="operators">,</span>name<span class="symbols">)</span>;
+    printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%.1f</span><span class="string">"</span><span class="operators">,</span>ft<span class="symbols">)</span>;
+    <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">1</span><span class="symbols">)</span>
+    <span class="symbols">{</span>
+        <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+    <span class="symbols">}</span>
+    <span class="reserved_key2">else</span> <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">0</span><span class="symbols">)</span>
+    <span class="symbols">{</span>
+        <span class="reserved_key2">return</span> <span class="numeric_constant">1</span>;
+    <span class="symbols">}</span>
+    <span class="reserved_key2">do</span>
+    <span class="symbols">{</span>
+        <span class="comment">/* code */</span>
+    <span class="symbols">}</span> <span class="reserved_key2">while</span> <span class="symbols">(</span><span class="numeric_constant">1</span><span class="symbols">)</span>;
+    <span class="reserved_key2">for</span><span class="symbols">(</span>i<span class="operators">=</span><span class="numeric_constant">0</span>;i<span class="operators"><=</span>sum;i<span class="operators">++</span><span class="symbols">)</span>
+    <span class="symbols">{</span>
+        sum<span class="operators">++</span>;
+    <span class="symbols">}</span>
+    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+}</pre>
+</body>
+</html>
