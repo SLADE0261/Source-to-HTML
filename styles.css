@@ -1,57 +1,28 @@
-/* body {
-	color: rgb(198, 198, 198);
-}
-
-.reserved_key1 {
-	color: green;
-}
-
-.reserved_key2 {
-	color: goldenrod;
-}
-
-.comment {
-	color: rgb(59, 124, 21);
-}
-
-.preprocess_dir {
-	color: purple;
-}
-
-.header_file {
-	color: red;
-}
-
-.string {
-	color: magenta;
-}
-
-.numeric_constant {
-	color: brown;
-}
-
-.ascii_char {
-	color: firebrick;
-}
-
-.format_specifier {
-	color: orangered;
-}
-
-.operators {
-	color: #ff0055;
-}
-
-.symbols {
-	color: rgb(0, 117, 149);
-} */
-
-
 /* Background + default text */
 body {
   background-color: #1e1e1e;  /* Dark+ background */
   color: #d4d4d4;            /* Default text color */
   font-family: Consolas, 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Code container */
+.code-container {
+  display: block;
+  width: 100%;
+}
+
+/* Line numbers styling */
+.line-number {
+  color: #858585;           /* Gray color for line numbers */
+  user-select: none;        /* Prevent line numbers from being selected */
+  display: inline-block;
+  text-align: right;
+  padding-right: 12px;
+  margin-right: 8px;
+  border-right: 1px solid #3e3e3e;
+  min-width: 40px;
 }
 
 /* Keywords (int, return, if, else, etc.) */
@@ -108,4 +79,12 @@ body {
 /* Symbols ({ } ( ) ; , etc.) */
 .symbols {
   color: #d4d4d4; /* Default gray */
+}
+
+/* Pre element styling */
+pre {
+  margin: 0;
+  padding: 10px;
+  overflow-x: auto;
+  line-height: 1.4;
 }

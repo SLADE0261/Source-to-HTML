@@ -6,43 +6,45 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="code-container">
 <pre>
-<span class="comment">/* this is multi-line comment */</span>
-<span class="comment">//this is single line comment
-</span><span class="comment">//hallo
-</span><span class="preprocess_dir">#include </span><span class="header_file">&lt;stdio.h&gt;</span>
-<span class="preprocess_dir">#include </span><span class="header_file">&lt;string.h&gt;</span>
-<span class="preprocess_dir">#include     </span><span class="header_file">"string.h"</span>
-<span class="preprocess_dir">#define </span>check <span class="numeric_constant">10</span>
-<span class="reserved_key1">int</span> main<span class="symbols">()</span>
-<span class="symbols">{</span>
-    <span class="reserved_key1">char</span> Z <span class="operators">=</span> <span class="ascii_char">'S''</span>;
-    <span class="reserved_key1">char</span> str<span class="symbols">[</span><span class="numeric_constant">2</span><span class="symbols">]</span>;
-    <span class="reserved_key1">int</span> i;
-    <span class="reserved_key1">int</span> sum<span class="operators">=</span><span class="numeric_constant">10</span>;
-    <span class="reserved_key1">float</span> ft <span class="operators">=</span> <span class="numeric_constant">10.98</span>;
-    <span class="reserved_key1">char</span> name <span class="operators">=</span> <span class="ascii_char">'a'</span>;
-    printf<span class="symbols">(</span><span class="string">"hello world"</span><span class="symbols">)</span>;
-    printf<span class="symbols">(</span><span class="string">"hallo </span><span class="format_specifier">%d</span><span class="string"> -> sum"</span><span class="operators">,</span>sum<span class="symbols">)</span>;
-    printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%c</span><span class="string">"</span><span class="operators">,</span>name<span class="symbols">)</span>;
-    printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%.1f</span><span class="string">"</span><span class="operators">,</span>ft<span class="symbols">)</span>;
-    <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">1</span><span class="symbols">)</span>
-    <span class="symbols">{</span>
-        <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
-    <span class="symbols">}</span>
-    <span class="reserved_key2">else</span> <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">0</span><span class="symbols">)</span>
-    <span class="symbols">{</span>
-        <span class="reserved_key2">return</span> <span class="numeric_constant">1</span>;
-    <span class="symbols">}</span>
-    <span class="reserved_key2">do</span>
-    <span class="symbols">{</span>
-        <span class="comment">/* code */</span>
-    <span class="symbols">}</span> <span class="reserved_key2">while</span> <span class="symbols">(</span><span class="numeric_constant">1</span><span class="symbols">)</span>;
-    <span class="reserved_key2">for</span><span class="symbols">(</span>i<span class="operators">=</span><span class="numeric_constant">0</span>;i<span class="operators"><=</span>sum;i<span class="operators">++</span><span class="symbols">)</span>
-    <span class="symbols">{</span>
-        sum<span class="operators">++</span>;
-    <span class="symbols">}</span>
-    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
-}</pre>
+<span class="comment"><span class="line-number">   1</span> /* this is multi-line comment */</span>
+<span class="comment"><span class="line-number">   2</span> //this is single line comment
+</span><span class="comment"><span class="line-number">   3</span> //hallo
+</span><span class="preprocess_dir"><span class="line-number">   4</span> #include </span><span class="header_file">&lt;stdio.h&gt;</span>
+<span class="preprocess_dir"><span class="line-number">   5</span> #include </span><span class="header_file">&lt;string.h&gt;</span>
+<span class="preprocess_dir"><span class="line-number">   6</span> #include     </span><span class="header_file">"string.h"</span>
+<span class="preprocess_dir"><span class="line-number">   7</span> #define </span>check <span class="numeric_constant">10</span>
+<span class="reserved_key1"><span class="line-number">   8</span> int</span> main<span class="symbols">()</span>
+<span class="symbols"><span class="line-number">   9</span> {</span>
+<span class="line-number">  10</span>     <span class="reserved_key1">char</span> Z <span class="operators">=</span> <span class="ascii_char">'S'</span>;
+<span class="line-number">  11</span>     <span class="reserved_key1">char</span> str<span class="symbols">[</span><span class="numeric_constant">2</span><span class="symbols">]</span>;
+<span class="line-number">  12</span>     <span class="reserved_key1">int</span> i;
+<span class="line-number">  13</span>     <span class="reserved_key1">int</span> sum<span class="operators">=</span><span class="numeric_constant">10</span>;
+<span class="line-number">  14</span>     <span class="reserved_key1">float</span> ft <span class="operators">=</span> <span class="numeric_constant">10.98</span>;
+<span class="line-number">  15</span>     <span class="reserved_key1">char</span> name <span class="operators">=</span> <span class="ascii_char">'a'</span>;
+<span class="line-number">  16</span>     printf<span class="symbols">(</span><span class="string">"hello world"</span><span class="symbols">)</span>;
+<span class="line-number">  17</span>     printf<span class="symbols">(</span><span class="string">"hallo </span><span class="format_specifier">%d</span><span class="string"> -&gt; sum"</span><span class="operators">,</span>sum<span class="symbols">)</span>;
+<span class="line-number">  18</span>     printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%c</span><span class="string">"</span><span class="operators">,</span>name<span class="symbols">)</span>;
+<span class="line-number">  19</span>     printf<span class="symbols">(</span><span class="string">"</span><span class="format_specifier">%.1f</span><span class="string">"</span><span class="operators">,</span>ft<span class="symbols">)</span>;
+<span class="line-number">  20</span>     <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">1</span><span class="symbols">)</span>
+<span class="line-number">  21</span>     <span class="symbols">{</span>
+<span class="line-number">  22</span>         <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+<span class="line-number">  23</span>     <span class="symbols">}</span>
+<span class="line-number">  24</span>     <span class="reserved_key2">else</span> <span class="reserved_key2">if</span><span class="symbols">(</span>sum<span class="operators">==</span><span class="numeric_constant">0</span><span class="symbols">)</span>
+<span class="line-number">  25</span>     <span class="symbols">{</span>
+<span class="line-number">  26</span>         <span class="reserved_key2">return</span> <span class="numeric_constant">1</span>;
+<span class="line-number">  27</span>     <span class="symbols">}</span>
+<span class="line-number">  28</span>     <span class="reserved_key2">do</span>
+<span class="line-number">  29</span>     <span class="symbols">{</span>
+<span class="line-number">  30</span>         <span class="comment">/* code */</span>
+<span class="line-number">  31</span>     <span class="symbols">}</span> <span class="reserved_key2">while</span> <span class="symbols">(</span><span class="numeric_constant">1</span><span class="symbols">)</span>;
+<span class="line-number">  32</span>     <span class="reserved_key2">for</span><span class="symbols">(</span>i<span class="operators">=</span><span class="numeric_constant">0</span>;i<span class="operators">&lt;=</span>sum;i<span class="operators">++</span><span class="symbols">)</span>
+<span class="line-number">  33</span>     <span class="symbols">{</span>
+<span class="line-number">  34</span>         sum<span class="operators">++</span>;
+<span class="line-number">  35</span>     <span class="symbols">}</span>
+<span class="line-number">  36</span>     <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+<span class="line-number">  37</span> }</pre>
+</div>
 </body>
 </html>
